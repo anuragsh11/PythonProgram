@@ -1,0 +1,15 @@
+from itertools import permutations,combinations,combinations_with_replacement
+
+arr=[2,1,4]
+
+arr2= permutations(arr)
+arr3= combinations(arr,2)
+arr4=combinations_with_replacement(arr,2)
+for i in arr2:
+    print(i)
+
+for j in arr3:
+    print(j)
+
+for k in arr4:
+    print(k)
